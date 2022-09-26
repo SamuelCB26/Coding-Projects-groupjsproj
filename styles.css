@@ -41,16 +41,17 @@ button {
     display: inline;
     font-family: 'Silkscreen', cursive;
     background-color: rgb(35, 35, 35);
-    border-radius: 10px;
+    border-radius: 15px;
     color: rgb(235, 234, 234);
     font-weight: lighter;
-    width: 180px;
+    width: 160px;
     height: 30px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: lighter;
     letter-spacing: 0.2px;
     box-shadow: 2px 5px 9px black;
     border-style: none;
+    margin-top: 5px;
 }
 
 button:hover {
@@ -69,4 +70,22 @@ button:active {
     transform: translateY(4px);
     font-size: 0.7rem;
     transition: 0.1s;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 0.5rem;
+    }
+    div {
+        width: 303px;
+        height: 203px;
+    }
+    button {
+        font-size: 0.3rem;
+        width: 80px;
+        height: 15px;
+    }
 }
